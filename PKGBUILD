@@ -3,8 +3,8 @@
 # 						Contributor: Dave Reisner <d@falconindy.com>
 
 pkgname=cower
-pkgver=17
-pkgrel=2
+pkgver=18
+pkgrel=1
 pkgdesc="A simple AUR agent with a pretentious name"
 arch=(x86_64)
 url="http://github.com/falconindy/cower"
@@ -13,7 +13,7 @@ depends=('curl' 'pacman' 'yajl')
 makedepends=('perl')
 source=("https://pkgbuild.com/~dreisner/sources/$pkgname/$pkgname-$pkgver.tar.gz")
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
-md5sums=('263c216e6643751b6c96eebfdd70c359')
+md5sums=('ce5993a79d7e1cc33016e06e32af03e7')
 
 build() {
   cd "$pkgname-$pkgver"
